@@ -804,7 +804,24 @@
                     <div class="col-lg-7 ml-auto m-15px-tb">
                         <div class="contact-form">
                             <h4>No dudes en contactarme 😉</h4>
-                            <form id="contact-form" method="POST" action="https://formsubmit.co/melissa.blecona@gmail.com">
+                            <form target="_blank" action="https://formsubmit.co/melissa.blecona@gmail.com" method="POST">
+                                <div class="form-group">
+                                  <div class="form-row">
+                                    <div class="col">
+                                      <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                                    </div>
+                                    <div class="col">
+                                      <input type="email" name="email" class="form-control" placeholder="Correo" required>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <textarea placeholder="Mensaje..." class="form-control" name="message" rows="10" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+                              </form>
+                           
+                         <!--    <form action="https://formsubmit.co/melissa.blecona@gmail.com" method="POST" id="contact-form"/>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -836,7 +853,7 @@
                                         <span id="err_message" class="text-danger" style="display: none">Message Sending Failed</span>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                     <div class="col-12">
